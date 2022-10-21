@@ -1,5 +1,5 @@
 # Midi2Midercode
-将midi格式文件转为 midercode
+transfer midi format to midercode form
 
 # Usage 
 ```java
@@ -16,6 +16,7 @@ System.out.println(parse);
 - note durations are not always correct when parsing complex midi files.
 - controller parameter are not set correctly.
 - note on events and note off events might not able to set when they are not paired.
+- setting channels are not supported yet.
 
 ### anyone is welcome to contribute for I have little time to fix it.
 
